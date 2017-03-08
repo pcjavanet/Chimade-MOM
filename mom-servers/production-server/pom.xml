@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+<!--  <parent>-->
+<!--	<groupId>cn.chimade.mom</groupId>-->
+<!--	<artifactId>mom-clients</artifactId>-->
+<!--	<version>1.0.0</version>-->
+<!--    <relativePath>../pom</relativePath>-->
+<!--  </parent>-->
+  <groupId>cn.chimade.mom</groupId>
+  <artifactId>production-server</artifactId>
+  <version>1.0.0</version>
+  <description>mom production server Project</description>
+  <name>mom production-server Project</name>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>productionCore</module>
+    <module>productionWeb</module>
+  </modules>
+
+
+  <dependencies>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-aop</artifactId>
+  		<version>4.3.2.RELEASE</version>
+  	</dependency>
+  </dependencies>
+</project>

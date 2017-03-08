@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+		<modelVersion>4.0.0</modelVersion>
+	<parent>
+		  <groupId>cn.chimade.mom</groupId>
+		  <artifactId>quality-server</artifactId>
+			<version>1.0.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<groupId>cn.chimade.mom</groupId>
+	<artifactId>qualityWeb</artifactId>
+	<packaging>war</packaging>
+	<version>1.0.0</version>
+  <description>quality server web war part</description>
+  <name>quality server web war part</name>
+	<build>
+		<finalName>quality-server</finalName>
+	</build>
+
+	<dependencies>
+	 	<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>qualityCore</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+ 
+  <groupId>cn.chimade.mom</groupId>
+  <artifactId>mom-servers</artifactId>
+  <version>1.0.0</version>
+  <description>mom server pom Project</description>
+  <name>mom server Project</name>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>server-commons</module>
+    <module>production-server</module>
+    <module>quality-server</module>
+    <module>maintenance-server</module>
+<!--    <module>client-webapps</module>-->
+<!--    <module>client-parent</module>-->
+<!--    <module>client-mobileapps</module>-->
+  </modules>
+
+
+</project>
